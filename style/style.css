@@ -1,9 +1,10 @@
-*{
+* {
     box-sizing: border-box;
-}
-body{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
+}
+body{
     background: url('../image/Bacground.jpg') no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -11,11 +12,12 @@ body{
 }
 .continer{
     display: grid;
-    grid-template-rows: 1fr 12fr 18fr 4fr;
+    grid-template-rows: 1fr 18fr 20fr 4fr;
 }
 .navbar{
     height: 4rem;
-    background-color: chartreuse;
+    position: sticky;
+    top: 0;
 }
 .header{
     
@@ -30,4 +32,5 @@ body{
     body{
         background-image: url('../image/MobileBackground.jpg');
     }
+    
 }
