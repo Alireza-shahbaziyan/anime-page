@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../image/Bacground.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.continer{
+    display: grid;
+    grid-template-rows: 1fr 12fr 18fr 4fr;
+}
+.navbar{
+    height: 4rem;
+    background-color: chartreuse;
+}
+.header{
+    
+}
+.news{
+    background-color: orangered;
+}
+.footer{
+    background-color: blue;
+}
+@media (max-width:600px){
+    body{
+        background-image: url('../image/MobileBackground.jpg');
+    }
+}
