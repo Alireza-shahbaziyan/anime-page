@@ -5,32 +5,30 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
 }
 body{
-    background: url('../image/Bacground.jpg') no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: #fff;
+    
     
 }
 .continer{
     display: grid;
-    grid-template-rows: 1fr 18fr 20fr 4fr;
+    grid-template-rows: 1fr 12fr 18fr 20fr 4fr;
 }
 .navbar{
     height: 4rem;
     position: sticky;
     top: 0;
 }
+.body{
+    text-align: center;
+}
 .header{
-    
+    text-align: center;
 }
 .news{
     background-color: orangered;
+    text-align: center;
 }
 .footer{
     background-color: blue;
-}
-@media (max-width:600px){
-    body{
-        background-image: url('../image/MobileBackground.jpg');
-    }
-    
+    text-align: center;
 }
