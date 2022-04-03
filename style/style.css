@@ -5,13 +5,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Arial, sans-serif;
 }
 body{
-    background-color: #fff;
+    background-color: #24252A;
     
     
 }
 .continer{
     display: grid;
-    grid-template-rows: 1fr 12fr 18fr 20fr 4fr;
+    grid-template-rows: 1fr 12fr 20fr 20fr 4fr;
 }
 .navbar{
     height: 4rem;

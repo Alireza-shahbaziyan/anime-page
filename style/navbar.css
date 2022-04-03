@@ -1,10 +1,11 @@
+.nav-title {
+    font-family: 'Dancing Script', cursive;
+}
 
 .nav {
-    font-family: 'Dancing Script', cursive;
     height: 50px;
     width: 100%;
     background-color: #24252A;
-    /* position: relative; */
     position: sticky;
     top: 0;
 }
@@ -38,7 +39,7 @@
 }
 
 .nav>.nav-links>a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #555;
 }
 
 .nav>#nav-check {

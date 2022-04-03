@@ -57,7 +57,4 @@ button:hover {
     header .overlay{
         background-image: url('../image/MobileBackground.jpg');
     }
-    body{
-        background-color: #24252A;
-    }
 }
