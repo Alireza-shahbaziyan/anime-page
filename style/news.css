@@ -1,0 +1,26 @@
+.news{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.continer-news{
+    color: #fff;
+    width: 90%;
+    height: 80%;
+    box-shadow: rgba(255, 255, 255, 0.363) 0px 8px 20px;
+    border-radius: 25px;
+}
+.item-news{
+    height: 8rem;
+    margin: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.432) ;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.image-news img{
+    height: 8rem;
+    border-radius: 30px;
+}
