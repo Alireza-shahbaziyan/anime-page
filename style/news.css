@@ -1,26 +1,101 @@
-.news{
+.news {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.continer-news{
+.news a{
+    text-decoration: none;
+    color: #fff;
+}
+.news a:hover{
+    opacity: .5;
+    transition: .5s;
+}
+.continer-news {
+    overflow: scroll;
     color: #fff;
     width: 90%;
     height: 80%;
     box-shadow: rgba(255, 255, 255, 0.363) 0px 8px 20px;
     border-radius: 25px;
+    /* bacground */
+    background: url('../image/MobileBackground.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.item-news{
-    height: 8rem;
-    margin: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.432) ;
-    border-radius: 15px;
+
+.item-news {
+    height: 18rem;
+    margin: 5px;
     display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+}
+
+.image-news img {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 14px;
+    height: 9rem;
+    width: 9rem;
+    border-radius: 40px;
+}
+
+.title-items-news {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.text-items-news {
+    padding: 1rem;
+    font-size: 0.75rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.date-items-news {
+    font-size: .75rem;
+    color: rgba(255, 255, 255, 0.486);
+    padding-bottom: .5rem;
+    text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+}
+
+.discription-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
-.image-news img{
-    height: 8rem;
-    border-radius: 30px;
+
+@media(min-width:560px) {
+    .continer-news {
+        width: 70%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: url('../image/back\ news\ \(1\).jpg');
+    }
+
+    .item-news {
+        height: 10rem;
+        flex-direction: row-reverse;
+    }
+
+    .title-items-news {
+        padding-left: 1rem;
+    }
+
+    .discription-news {
+        align-items: flex-start;
+    }
+
+    .date-items-news {
+        padding: 1rem 1rem 0 1rem;
+    }
 }
+
